@@ -240,9 +240,8 @@ a.nav-link {
 
     border-radius: 1000px;
     margin-right: 24px;
-    background: linear-gradient(262.17deg, #05d5ff -86.4%, #5533ff 362.24%);
+    color: #15b3fe;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
