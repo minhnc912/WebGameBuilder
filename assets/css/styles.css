@@ -512,7 +512,7 @@ a.nav-link {
 
 /* Vertical Tablet  */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
     h1 {
         font-size: 3rem;
     }
@@ -541,7 +541,7 @@ a.nav-link {
 
 /* Mobile */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     body {
         margin: 0 15px;
     }
