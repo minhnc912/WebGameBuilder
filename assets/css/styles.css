@@ -553,4 +553,8 @@ a.nav-link {
     #title .title {
         display: block!important;
     }
+
+    .feature_universities_item {
+        width: 40%;
+    }
 }
