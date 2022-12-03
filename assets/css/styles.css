@@ -254,7 +254,7 @@ a.nav-link {
 }
 
 .strong_word {
-    color: #5533ff;
+    color: #1ea2ff;
 }
 
 /* Job Category */
@@ -271,7 +271,6 @@ a.nav-link {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     margin: 15px;
-    width: 450px;
     cursor: pointer;
 }
 
@@ -312,6 +311,7 @@ a.nav-link {
 
 #features {
     position: relative;
+    z-index: 10;
 }
 
 .ellipse1 {
@@ -431,6 +431,7 @@ a.nav-link {
 /* Recent New  */
 .latest_new_list .card-title {
     margin: 24px auto;
+    position: relative;
 }
 
 /* cta  */
@@ -494,11 +495,22 @@ a.nav-link {
 
 /* Responsive  */
 
+/* Large PC  */
 @media (min-width: 1920px) {
     .wrapper {
         margin: 0 240px;
     }
 }
+
+/* horizontal tablet */
+
+@media screen and (max-width: 1200px) {
+    #features {
+        overflow: hidden;
+    }
+}
+
+/* Vertical Tablet  */
 
 @media screen and (max-width: 991px) {
     h1 {
@@ -510,16 +522,27 @@ a.nav-link {
     }
 
     h3 {
-
         font-size: 1.5rem;
-
     }
 
-    h5,p {
+    h5,
+    p {
         font-size: 1.2rem;
+    }
+
+    #features {
+        overflow: hidden;
     }
 
     .feature_item {
         width: 100%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0 15px;
     }
 }
