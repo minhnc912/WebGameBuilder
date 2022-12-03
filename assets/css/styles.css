@@ -229,6 +229,7 @@ a.nav-link {
 .btn_title_right {
     background: linear-gradient(262.17deg, #00cbf4 -86.4%, #2a00ff 362.24%);
     border-radius: 1000px;
+    padding: 1% 3%;
 }
 
 .btn_title_left {
@@ -239,6 +240,7 @@ a.nav-link {
     border-color: #15b3ff;
 
     border-radius: 1000px;
+    padding: 1% 3%;
     margin-right: 24px;
     color: #15b3fe;
     -webkit-background-clip: text;
@@ -308,6 +310,16 @@ a.nav-link {
 
 /* Feature Jobs */
 
+#features {
+    position: relative;
+}
+
+.ellipse1 {
+    position: absolute;
+    right: -240px;
+    top: -500px;
+}
+
 .feature_heading {
     margin: 60px 0 35px;
 }
@@ -349,6 +361,22 @@ a.nav-link {
 }
 
 /* Feature Universities */
+
+#universities {
+    position: relative;
+}
+
+.ellipse2 {
+    position: absolute;
+    left: -240px;
+    top: -550px;
+}
+
+.ellipse3 {
+    position: absolute;
+    right: -240px;
+    top: 550px;
+}
 
 .feature_universities_list {
     margin: 15px 0;
@@ -464,8 +492,34 @@ a.nav-link {
     padding: 24px 10px;
 }
 
+/* Responsive  */
+
 @media (min-width: 1920px) {
     .wrapper {
         margin: 0 240px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+
+        font-size: 1.5rem;
+
+    }
+
+    h5,p {
+        font-size: 1.2rem;
+    }
+
+    .feature_item {
+        width: 100%;
     }
 }
