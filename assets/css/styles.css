@@ -64,6 +64,10 @@ body {
     font-size: 62.5%;
 }
 
+.wrapper {
+    margin: 0 15pxcta;
+}
+
 h1 {
     font-weight: 800;
     font-size: 6rem;
@@ -159,12 +163,8 @@ img {
 
 .btn_singup {
     border-radius: 8px;
-
-    background-image: linear-gradient(
-        97.15deg,
-        rgba(255, 255, 255, 0.3) -15.38%,
-        rgba(255, 255, 255, 0.1) 111.19%
-    );
+    border: 1px solid;
+    border-color: #2f2754;
 }
 
 #header ul {
@@ -185,7 +185,11 @@ img {
     color: #05d5ff;
 }
 
-#header ul li a.has-children-link::after {
+#header ul .nav-item a.has-children-link:focus {
+    color: #05d5ff;
+}
+
+#header ul .nav-item a.has-children-link::after {
     content: "";
     height: 3px;
     width: 0;
@@ -197,6 +201,10 @@ img {
 }
 
 #header ul li:hover a.has-children-link::after {
+    width: 100%;
+}
+
+#header ul .nav-item:focus a.has-children-link::after {
     width: 100%;
 }
 
@@ -228,11 +236,7 @@ a.nav-link {
     background: none;
     border: 1px solid;
 
-    border-image-source: linear-gradient(
-        262.17deg,
-        #05d5ff -86.4%,
-        #5533ff 362.24%
-    );
+    border-color: #15b3ff;
 
     border-radius: 1000px;
     margin-right: 24px;
@@ -314,10 +318,18 @@ a.nav-link {
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
     border-radius: 20px;
-    width: 45%;
     padding: 24px 32px 24px 24px;
-    margin: 15px;
+    width: 49%;
     cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.feature_item h3 {
+    font-size: 2.4rem;
+}
+
+.feature_item h4 {
+    font-size: 1.8rem;
 }
 
 #features .feature_time {
@@ -396,7 +408,7 @@ a.nav-link {
 
 /* cta  */
 
-#cta .container-fluid {
+.cta_bg {
     position: relative;
 }
 
@@ -412,6 +424,8 @@ a.nav-link {
 
 #cta {
     margin: 0 7.5px;
+    position: relative;
+    z-index: 10;
 }
 
 .contact_info li {
@@ -433,7 +447,7 @@ a.nav-link {
     margin-bottom: 20px;
 }
 
-#cta .social_icon li{
+#cta .social_icon li {
     margin-right: 24px;
 }
 
@@ -452,7 +466,10 @@ a.nav-link {
 }
 
 @media (min-width: 1920px) {
-    body {
+    .wrapper {
         margin: 0 240px;
     }
+}
+
+@media (min-width: ) {
 }
