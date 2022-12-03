@@ -545,4 +545,12 @@ a.nav-link {
     body {
         margin: 0 15px;
     }
+
+    #title .title {
+        display: block!important;
+    }
+
+    .btn_title {
+        margin: 10px 0;
+    }
 }
