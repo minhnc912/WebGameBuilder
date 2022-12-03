@@ -539,7 +539,7 @@ a.nav-link {
     }
 
     .feature_universities_item {
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -552,9 +552,5 @@ a.nav-link {
 
     #title .title {
         display: block!important;
-    }
-
-    .feature_universities_item {
-        width: 40%;
     }
 }
