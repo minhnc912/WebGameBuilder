@@ -65,7 +65,7 @@ body {
 }
 
 .wrapper {
-    margin: 0 15pxcta;
+    margin: 0 15px;
 }
 
 h1 {
@@ -469,7 +469,4 @@ a.nav-link {
     .wrapper {
         margin: 0 240px;
     }
-}
-
-@media (min-width: ) {
 }
