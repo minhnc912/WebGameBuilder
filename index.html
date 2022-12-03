@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Web Game Builder" />
+        <meta name="keyword" content="" />
+
+        <!-- Title -->
+        <title>Game Builder</title>
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" />
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <section id="header">
+            <div class="container-fluid">
+                <!-- Navigation Bar -->
+                <nav
+                    class="row align-items-center navbar navbar-expand-lg navbar-dark"
+                >
+                    <div class="col-lg-3">
+                        <a class="navbar-brand text-uppercase" href="#"
+                            ><img
+                                src="assets/images/Logo SVG.svg"
+                                alt="logo-img"
+                        /></a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarColor01"
+                            aria-controls="navbarColor01"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-lg-9">
+                        <div
+                            class="collapse navbar-collapse"
+                            id="navbarColor01"
+                        >
+                            <div class="col-lg-7 d-flex justify-content-center">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active has-children-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Job</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link has-children-link"
+                                            href="#"
+                                            >Employer</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link has-children-link"
+                                            href="#"
+                                            >Blog</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link has-children-link"
+                                            href="#"
+                                            >News</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link has-children-link"
+                                            href="#"
+                                            >Resource</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-5">
+                                <ul>
+                                    <li
+                                        class="btn btn-outline-light btn_singin"
+                                    >
+                                        Sign in
+                                    </li>
+                                    <li
+                                        class="btn btn-outline-light btn_singup"
+                                    >
+                                        Sign up
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Title -->
+                <div class="row" id="title">
+                    <div
+                        class="d-flex justify-content-center align-items-center"
+                    >
+                        <div class="col-lg-6">
+                            <h1 class="big_heading">
+                                Find Jobs And Talents In
+                                <span class="strong_word"
+                                    >The Big Data Era</span
+                                >
+                            </h1>
+                            <h5>
+                                Search for Phd scholarships and projects from
+                                the global universities!
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg btn_title_left"
+                            >
+                                Button
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg btn_title_right"
+                            >
+                                Button
+                                <img
+                                    src="assets/images/Button - Size icon.svg"
+                                    alt="size-icon"
+                                />
+                            </button>
+                        </div>
+                        <div class="col-lg-6">
+                            <img
+                                class="title_img"
+                                src="assets/images/Titleimg.svg"
+                                alt="title-image"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job Category -->
+            <div class="job_cate_list">
+                <div
+                    class="row text-center d-flex align-items-center justify-content-between"
+                >
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Analyst.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Analyst</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Art.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Art</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Audio.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Audio</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Business.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Business</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Community.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Community</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Designer.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Engineering.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Engineering</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/HR.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>HR</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Localization.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Localization</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 m-lg-auto">
+                        <div class="job_cate_item">
+                            <img
+                                src="assets/images/Marketing.svg"
+                                alt="JobCate-img"
+                                class="job_cate_img"
+                            />
+                            <p>Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscriber -->
+
+        <section id="subscriber">
+            <div class="text-center">
+                <h2 class="subs_heading">Subscriber</h2>
+                <p>
+                    Get the latest jobs, news, and other information from TopAI
+                    straight to your inbox! Enter your email to get started -
+                    you'll be able to unsubscribe at any moment.
+                </p>
+                <button
+                    type="button"
+                    class="btn btn-primary btn-lg btn_title_right subs_btn"
+                >
+                    Subscriber
+                    <img
+                        src="assets/images/Button - Size icon.svg"
+                        alt="size-icon"
+                    />
+                </button>
+            </div>
+        </section>
+
+        <!-- Feature -->
+        <section id="features">
+            <!-- Jobs -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="feature_heading text-center">
+                            Feature Jobs
+                        </h2>
+                    </div>
+                </div>
+                <div
+                    class="row feature_list d-flex align-items-center justify-content-between"
+                >
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center btn_feature">
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_post btn_title_right"
+                    >
+                        Post scholarship
+                        <img
+                            src="assets/images/Button - Size icon.svg"
+                            alt="size-icon"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_load btn_title_left"
+                    >
+                        Load more
+                    </button>
+                </div>
+            </div>
+
+            <!-- Universities -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="feature_heading text-center">
+                            Feature Universities
+                        </h2>
+                    </div>
+                </div>
+                <div class="feature_universities_list">
+                    <div
+                        class="row d-flex align-items-center justify-content-center"
+                    >
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex feature_universities_item">
+                            <div class="col-md-3">
+                                <img
+                                    src="assets/images/Universities.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="uni_heading">
+                                    Leibniz Institude of Plant Genetics and Crop
+                                    Plant Research
+                                </h3>
+                                <div class="d-flex justify-content-between">
+                                    <div class="feature_time">
+                                        <img
+                                            src="assets/images/universities_work.svg"
+                                            alt=""
+                                        />
+                                        83 open position
+                                    </div>
+
+                                    <div class="float-end feature_time">
+                                        <img
+                                            src="assets/images/location address.svg"
+                                            alt=""
+                                        />
+                                        England
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center btn_feature">
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_post btn_title_right"
+                    >
+                        Post scholarship
+                        <img
+                            src="assets/images/Button - Size icon.svg"
+                            alt="size-icon"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_load btn_title_left"
+                    >
+                        Load more
+                    </button>
+                </div>
+            </div>
+
+            <!-- Lastest Jobs -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="feature_heading text-center">
+                            Feature Jobs
+                        </h2>
+                    </div>
+                </div>
+                <div
+                    class="row feature_list d-flex align-items-center justify-content-center"
+                >
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex feature_item">
+                        <div class="col-md-2">
+                            <img src="assets/images/featurejob.svg" alt="" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Intern motorcycle production engineer</h3>
+                            <h4 class="sub_heading_feature">
+                                Rockwell Automation
+                            </h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="feature_time">
+                                    <img
+                                        src="assets/images/time clock.svg"
+                                        alt=""
+                                    />
+                                    Closing in 27 days
+                                </div>
+
+                                <div class="float-end feature_time">
+                                    <img
+                                        src="assets/images/location address.svg"
+                                        alt=""
+                                    />
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center btn_feature">
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_post btn_title_right"
+                    >
+                        Post scholarship
+                        <img
+                            src="assets/images/Button - Size icon.svg"
+                            alt="size-icon"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_load btn_title_left"
+                    >
+                        Load more
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recent Blogs -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="feature_heading text-center">
+                            Recent Blogs
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="latest_blog_list">
+                    <div
+                        class="row d-flex justify-content-between align-items-center"
+                    >
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <p class="blog-tag_1 text-uppercase">
+                                        Funding
+                                    </p>
+                                    <h3 class="card-title">
+                                        Dragonfly - World’s First Hyperscooter
+                                    </h3>
+                                    <p class="blog-tag_2">#AI</p>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/time clock.svg"
+                                            alt=""
+                                        />
+                                        13 days left
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <p class="blog-tag_1 text-uppercase">
+                                        Funding
+                                    </p>
+                                    <h3 class="card-title">
+                                        Dragonfly - World’s First Hyperscooter
+                                    </h3>
+                                    <p class="blog-tag_2">#AI</p>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/time clock.svg"
+                                            alt=""
+                                        />
+                                        13 days left
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <p class="blog-tag_1 text-uppercase">
+                                        Funding
+                                    </p>
+                                    <h3 class="card-title">
+                                        Dragonfly - World’s First Hyperscooter
+                                    </h3>
+                                    <p class="blog-tag_2">#AI</p>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/time clock.svg"
+                                            alt=""
+                                        />
+                                        13 days left
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-center btn_feature">
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_post btn_title_right"
+                    >
+                        Post scholarship
+                        <img
+                            src="assets/images/Button - Size icon.svg"
+                            alt="size-icon"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_load btn_title_left"
+                    >
+                        Load more
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recent News -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="feature_heading text-center">Recent News</h2>
+                    </div>
+                </div>
+
+                <div class="latest_new_list">
+                    <div
+                        class="row d-flex justify-content-between align-items-center"
+                    >
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        The Hyundai Ioniq 6 sedan is basically
+                                        Apple’s Magic Mouse on wheels
+                                    </h3>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/calendar.svg"
+                                            alt=""
+                                        />
+                                        August 19, 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        The Hyundai Ioniq 6 sedan is basically
+                                        Apple’s Magic Mouse on wheels
+                                    </h3>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/calendar.svg"
+                                            alt=""
+                                        />
+                                        August 19, 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        The Hyundai Ioniq 6 sedan is basically
+                                        Apple’s Magic Mouse on wheels
+                                    </h3>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/calendar.svg"
+                                            alt=""
+                                        />
+                                        August 19, 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        The Hyundai Ioniq 6 sedan is basically
+                                        Apple’s Magic Mouse on wheels
+                                    </h3>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/calendar.svg"
+                                            alt=""
+                                        />
+                                        August 19, 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        The Hyundai Ioniq 6 sedan is basically
+                                        Apple’s Magic Mouse on wheels
+                                    </h3>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/calendar.svg"
+                                            alt=""
+                                        />
+                                        August 19, 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card latest_blog-item">
+                                <img
+                                    src="assets/images/BlogImage.svg"
+                                    class="card-img-top"
+                                    alt="Block-Img"
+                                />
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        The Hyundai Ioniq 6 sedan is basically
+                                        Apple’s Magic Mouse on wheels
+                                    </h3>
+                                    <div class="blog_time">
+                                        <img
+                                            src="assets/images/calendar.svg"
+                                            alt=""
+                                        />
+                                        August 19, 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-center btn_feature">
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_post btn_title_right"
+                    >
+                        Post scholarship
+                        <img
+                            src="assets/images/Button - Size icon.svg"
+                            alt="size-icon"
+                        />
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-lg btn_load btn_title_left"
+                    >
+                        Load more
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- cta  -->
+
+        <section id="cta">
+            <div class="container-fluid">
+                <div class="looper_bg">
+                    <img src="assets/images/Looper BG.svg" alt="" />
+                </div>
+                <div class="background_blur">
+                    <img src="assets/images/Background blur.svg" alt="" />
+                </div>
+            </div>
+
+            <div class="container-fluid contact_info">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/Logo SVG.svg" class="cta_logo" alt="cta_logo"/>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img
+                                        src="assets/images/email mail.svg"
+                                        alt=""
+                                    />Contact@Brightergates.Com</a
+                                >
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img
+                                        src="assets/images/copyright.svg"
+                                        alt=""
+                                    />This website is a product by Brighter
+                                    Gates AB</a
+                                >
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img
+                                        src="assets/images/email mail.svg"
+                                        alt=""
+                                    />Contact@Brightergates.Com</a
+                                >
+                            </li>
+                        </ul>
+
+                        <div class="social_icon">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="">
+                                        <img
+                                            src="assets/images/youtube.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img
+                                            src="assets/images/facebook.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img
+                                            src="assets/images/INSTAGRAM INS IG.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img
+                                            src="assets/images/Twitter.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img
+                                            src="assets/images/Linkin IN.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img
+                                            src="assets/images/github.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex contact_action">
+                        <div class="col-md-4">
+                            <h5>Job Seeker</h5>
+                            <a>Job</a>
+                            <a>Employer</a>
+                            <a>Blog</a>
+                            <a>News</a>
+                            <a>Subscribe</a>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Subscribe</h5>
+                            <a>Post A Job</a>
+                            <a>Post Blog</a>
+                            <a>Post News</a>
+                            <a>Content Marketing</a>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Info</h5>
+                            <a>About Us</a>
+                            <a>Terms & Conditions</a>
+                            <a>Privacy Policy</a>
+                            <a>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <section id="footer">
+            <p class="text-center">
+                This Website Is A Product By Brighter Gates AB, Portlidervagen
+                2, 724 80, Vasteras, Sweden.
+            </p>
+        </section>
+
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.js"></script>
+    </body>
+</html>
