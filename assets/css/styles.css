@@ -321,6 +321,11 @@ a.nav-link {
     z-index: 10;
 }
 
+.feature_list {
+    position: relative;
+    z-index: 1
+}
+
 .ellipse1 {
     position: absolute;
     right: -240px;
