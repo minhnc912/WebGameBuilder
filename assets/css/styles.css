@@ -286,7 +286,12 @@ a.nav-link {
 .job_cate_item:hover,
 .feature_item:hover,
 .feature_universities_item:hover,
-.latest_blog-item:hover {
+.latest_blog-item:hover
+.feature_job_item:hover {
+    background: linear-gradient(0deg, #071440, #0f2a82), rgba(52, 50, 59, 0.3);
+}
+
+.feature_job_item:hover {
     background: linear-gradient(0deg, #071440, #0f2a82), rgba(52, 50, 59, 0.3);
 }
 
@@ -409,6 +414,11 @@ a.nav-link {
     padding: 32px;
     margin: 15px;
     cursor: pointer;
+}
+
+.feature_universities_item h3 {
+    font-size: 1.8rem;
+    line-height: 28px;
 }
 
 .uni_heading {
@@ -551,7 +561,7 @@ a.nav-link {
     }
 
     .feature_universities_item {
-        width: 100%;
+        width: 45%;
     }
 
     #features {
@@ -586,7 +596,7 @@ a.nav-link {
     }
 
     .feature_universities_item {
-        width: 100%;
+        width: 45%;
     }
 }
 
