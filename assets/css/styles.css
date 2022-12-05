@@ -239,10 +239,12 @@ a.nav-link {
 
 .navbar {
     margin-bottom: 80px;
+    padding: 20px;
+    background-color: #07063a;
 }
 
 .offcanvas {
-    width: 50%!important;
+    width: 50% !important;
 }
 
 .text-bg-dark {
@@ -278,6 +280,10 @@ a.nav-link {
     color: #fff;
     background: linear-gradient(262.17deg, #00cbf4 -86.4%, #2a00ff 362.24%);
     border-radius: 1000px;
+}
+
+#header .btn_more {
+    padding: 12px 32px;
 }
 
 .strong_word {
@@ -596,8 +602,19 @@ a.nav-link {
         margin: auto;
     }
 
+    #features {
+        overflow: hidden;
+    }
+
+    .feature_universities_item {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     h1 {
         font-size: 3rem;
+        line-height: 40px;
     }
 
     h2 {
@@ -611,14 +628,6 @@ a.nav-link {
     h5,
     p {
         font-size: 1.2rem;
-    }
-
-    #features {
-        overflow: hidden;
-    }
-
-    .feature_universities_item {
-        width: 45%;
     }
 }
 
