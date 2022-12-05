@@ -241,6 +241,10 @@ a.nav-link {
     margin-bottom: 80px;
 }
 
+.offcanvas {
+    width: 50%!important;
+}
+
 .text-bg-dark {
     background-color: var(--bs-background) !important;
 }
