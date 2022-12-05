@@ -148,9 +148,9 @@ img {
 
 #navbar {
     position: fixed;
-    top: 50px;
+    top: 0;
     transition: top 0.3s;
-    height: 15%;
+    /* height: 15%; */
 }
 
 .header_nav {
