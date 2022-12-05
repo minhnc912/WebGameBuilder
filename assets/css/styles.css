@@ -146,6 +146,18 @@ img {
 
 /* header */
 
+.header_nav {
+    left: 0;
+    top: 0;
+    height: 15%;
+    width: 100%;
+    -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
+    z-index: 1999;
+    background-color: #090745;
+}
+
 .header_text {
     font-weight: 600;
 }
@@ -229,7 +241,14 @@ a.nav-link {
     margin-bottom: 80px;
 }
 
+.text-bg-dark {
+    background-color: var(--bs-background) !important;
+}
+
 /* Title  */
+#title {
+    margin-top: 100px;
+}
 .btn_title_right {
     background: linear-gradient(262.17deg, #00cbf4 -86.4%, #2a00ff 362.24%);
     border-radius: 1000px;
@@ -286,8 +305,7 @@ a.nav-link {
 .job_cate_item:hover,
 .feature_item:hover,
 .feature_universities_item:hover,
-.latest_blog-item:hover
-.feature_job_item:hover {
+.latest_blog-item:hover .feature_job_item:hover {
     background: linear-gradient(0deg, #071440, #0f2a82), rgba(52, 50, 59, 0.3);
 }
 
@@ -328,7 +346,7 @@ a.nav-link {
 
 .feature_list {
     position: relative;
-    z-index: 1
+    z-index: 1;
 }
 
 .ellipse1 {
@@ -505,6 +523,10 @@ a.nav-link {
     margin-right: 24px;
 }
 
+.contact_action {
+    margin: 30px 0;
+}
+
 /* footer  */
 
 #footer {
@@ -615,6 +637,9 @@ a.nav-link {
     }
     .feature_universities_item {
         width: 100%;
+    }
+    .contact_action {
+        margin: 30px 0;
     }
 }
 
