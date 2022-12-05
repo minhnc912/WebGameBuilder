@@ -148,6 +148,7 @@ img {
 
 #navbar {
     position: fixed;
+    top: 50px;
     transition: top 0.3s;
     height: 15%;
 }
