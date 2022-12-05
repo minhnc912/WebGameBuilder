@@ -146,15 +146,10 @@ img {
 
 /* header */
 
-#navbar {
-    position: fixed;
+.header_nav {
+    height: 15%;
     top: 0;
     transition: top 0.3s;
-    height: 15%;
-}
-
-.header_nav {
-
     width: 100%;
     -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
