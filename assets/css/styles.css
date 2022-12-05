@@ -309,11 +309,7 @@ a.nav-link {
 .job_cate_item:hover,
 .feature_item:hover,
 .feature_universities_item:hover,
-.latest_blog-item:hover .feature_job_item:hover {
-    background: linear-gradient(0deg, #071440, #0f2a82), rgba(52, 50, 59, 0.3);
-}
-
-.feature_job_item:hover {
+.latest_blog-item:hover{
     background: linear-gradient(0deg, #071440, #0f2a82), rgba(52, 50, 59, 0.3);
 }
 
