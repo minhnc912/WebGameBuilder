@@ -42,7 +42,7 @@
 }
 
 #header .btn-outline-light {
-    padding: 12px 32px;
+    padding: 6px 32px;
 }
 
 /* default css */
@@ -146,10 +146,15 @@ img {
 
 /* header */
 
-.header_nav {
-    left: 0;
-    top: 0;
+#navbar {
+    position: fixed;
+    top: -50px;
+    transition: top 0.3s;
     height: 15%;
+}
+
+.header_nav {
+
     width: 100%;
     -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
@@ -283,7 +288,7 @@ a.nav-link {
 }
 
 #header .btn_more {
-    padding: 12px 32px;
+    padding: 6px 32px;
 }
 
 .strong_word {
