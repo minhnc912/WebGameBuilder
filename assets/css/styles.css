@@ -356,6 +356,10 @@ a.nav-link {
     font-size: 1.8rem;
 }
 
+.feature_item p {
+    font-size: 1.6rem;
+}
+
 #features .feature_time {
     font-size: 1.6rem;
     line-height: 24px;
