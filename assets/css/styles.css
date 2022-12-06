@@ -702,6 +702,11 @@ a.nav-link {
     .feature_universities_item {
         width: 45%;
     }
+
+    .feature_list_img img, .universities_img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -721,6 +726,10 @@ a.nav-link {
     h5,
     p {
         font-size: 1.2rem;
+    }
+    .feature_list_img img, .universities_img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -747,6 +756,10 @@ a.nav-link {
     .contact_action {
         margin: 30px 0;
     }
+    .feature_list_img img, .universities_img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -764,6 +777,10 @@ a.nav-link {
 
     #features {
         overflow: hidden;
+    }
+    .feature_list_img img, .universities_img {
+        width: 100%;
+        height: 100%;
     }
 }
 
