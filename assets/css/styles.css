@@ -8,27 +8,19 @@
 }
 
 :root {
-    --bs-button: linear-gradient(
-        262.17deg,
-        #00cbf4 -86.4%,
-        #2a00ff 362.24%
-    ) !important;
-    --bs-second-button: linear-gradient(
-        262.17deg,
-        #00cbf4 -86.4%,
-        #2a00ff 362.24%
-    ) !important;
+    --bs-button: linear-gradient(262.17deg,
+            #00cbf4 -86.4%,
+            #2a00ff 362.24%) !important;
+    --bs-second-button: linear-gradient(262.17deg,
+            #00cbf4 -86.4%,
+            #2a00ff 362.24%) !important;
     --bs-background: #06052f !important;
-    --bs-primary: linear-gradient(
-        262.17deg,
-        #05d5ff -86.4%,
-        #5533ff 362.24%
-    ) !important;
-    --bs-header-text: linear-gradient(
-        262.17deg,
-        #05d5ff -86.4%,
-        #5533ff 362.24%
-    );
+    --bs-primary: linear-gradient(262.17deg,
+            #05d5ff -86.4%,
+            #5533ff 362.24%) !important;
+    --bs-header-text: linear-gradient(262.17deg,
+            #05d5ff -86.4%,
+            #5533ff 362.24%);
 }
 
 .btn-outline-primary {
@@ -255,6 +247,7 @@ a.nav-link {
 #title {
     margin-top: 100px;
 }
+
 .btn_title_right {
     background: linear-gradient(262.17deg, #00cbf4 -86.4%, #2a00ff 362.24%);
     border-radius: 1000px;
@@ -353,7 +346,8 @@ a.nav-link {
     z-index: 1;
 }
 
-.feature_list_img > div,  .universities_img > div{
+.feature_list_img>div,
+.universities_img>div {
     height: 70px;
     width: 70px;
     color: #fff;
@@ -369,7 +363,12 @@ a.nav-link {
     display: inline-block;
 }
 
-.feature_list_img img, .universities_img{
+.title_list_item {
+    height: 100px;
+}
+
+.feature_list_img img,
+.universities_img {
     background: var(--bs-background);
     border: 1px solid var(--bs-background);
     text-align: center;
@@ -388,6 +387,10 @@ a.nav-link {
     top: -500px;
 }
 
+.title_list_item {
+    height: 100px;
+}
+
 .feature_heading {
     margin: 60px 0 35px;
 }
@@ -401,6 +404,7 @@ a.nav-link {
     padding: 24px 32px 24px 24px;
     width: 49%;
     margin-bottom: 30px;
+    height: 320px;
 }
 
 .feature_item h3 {
@@ -497,7 +501,7 @@ a.nav-link {
     line-height: 28px;
 }
 
-.universities_img > div {
+.universities_img>div {
     height: 70px;
     width: 70px;
     color: #fff;
@@ -527,7 +531,7 @@ a.nav-link {
         0px 109px 175px -30px rgba(183, 0, 206, 0.1);
 }
 
-.latest_blog-item > img {
+.latest_blog-item>img {
     height: 234px;
 }
 
@@ -663,6 +667,7 @@ a.nav-link {
         overflow: hidden;
     }
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
     .wrapper {
         max-width: 720px;
@@ -705,15 +710,19 @@ a.nav-link {
         max-width: 540px;
         margin: auto;
     }
+
     #title .title {
         display: block !important;
     }
+
     .feature_item {
         width: 100%;
     }
+
     .feature_universities_item {
         width: 100%;
     }
+
     .contact_action {
         margin: 30px 0;
     }
@@ -723,12 +732,15 @@ a.nav-link {
     #title .title {
         display: block !important;
     }
+
     .feature_item {
         width: 100%;
     }
+
     .feature_universities_item {
         width: 100%;
     }
+
     #features {
         overflow: hidden;
     }
@@ -738,6 +750,7 @@ a.nav-link {
 .hidden {
     display: none !important;
 }
+
 .btn-job-fav {
     box-shadow: none !important;
 }
@@ -804,17 +817,21 @@ a.nav-link {
     text-align: center;
     z-index: 999;
 }
+
 .cookie-consent__message {
     color: #b1721f;
     font-size: 14px;
 }
+
 .ml-3,
 .mx-3 {
     margin-left: 0.75rem !important;
 }
+
 .cookie-consent__message a {
     color: var(--bs-primary);
 }
+
 .cookie-consent__cancel,
 .cookie-consent__agree {
     z-index: 9991;
@@ -838,6 +855,7 @@ a.nav-link {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .cookie-consent__cancel {
     min-width: 85px !important;
     font-size: 14px;
