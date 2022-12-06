@@ -309,7 +309,7 @@ a.nav-link {
     font-size: 2rem;
     line-height: 28px;
     font-weight: 600;
-    cursor: pointer;
+
 }
 
 .job_cate_item:hover,
@@ -355,6 +355,24 @@ a.nav-link {
     z-index: 1;
 }
 
+.feature_list_img > div {
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    background: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+
 .ellipse1 {
     position: absolute;
     right: -240px;
@@ -373,7 +391,7 @@ a.nav-link {
     border: 2px solid #37345a;
     padding: 24px 32px 24px 24px;
     width: 49%;
-    cursor: pointer;
+
     margin-bottom: 30px;
 }
 
@@ -394,8 +412,16 @@ a.nav-link {
     line-height: 24px;
 }
 
+.feature_content_header {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
 .sub_heading_feature {
     margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 
 .btn_feature {
@@ -404,6 +430,10 @@ a.nav-link {
 
 .btn_post {
     margin-right: 24px;
+}
+
+.fa-heart{
+    font-size: 2.4rem;
 }
 
 /* Feature Universities */
@@ -437,16 +467,29 @@ a.nav-link {
     border-radius: 16px;
     padding: 32px;
     margin: 15px;
-    cursor: pointer;
-}
 
-.feature_universities_item h3 {
-    font-size: 1.8rem;
-    line-height: 28px;
 }
 
 .uni_heading {
     width: 90%;
+    font-size: 1.8rem;
+    line-height: 28px;
+}
+
+.universities_img > div {
+    height: 70px;
+    width: 70px;
+    color: #fff;
+    line-height: 70px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    background: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
 }
 
 /* Latest Blog  */
