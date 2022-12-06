@@ -353,11 +353,11 @@ a.nav-link {
     z-index: 1;
 }
 
-.feature_list_img > div {
-    height: 50px;
-    width: 50px;
+.feature_list_img > div,  .universities_img > div{
+    height: 70px;
+    width: 70px;
     color: #fff;
-    line-height: 50px;
+    line-height: 70px;
     font-size: 20px;
     text-align: center;
     position: relative;
@@ -375,8 +375,9 @@ a.nav-link {
     text-align: center;
     position: relative;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
     overflow: hidden;
     display: inline-block;
 }
