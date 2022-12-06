@@ -360,11 +360,18 @@ a.nav-link {
     border: 1px solid var(--bs-primary);
     box-sizing: border-box;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .title_list_item {
-    height: 100px;
+    height: 140px;
+
+}
+
+.body_list_item {
+    margin-top: 20px;
+    height: 200px;
 }
 
 .feature_list_img img,
@@ -376,19 +383,15 @@ a.nav-link {
     border-radius: 50%;
     height: 70px;
     width: 70px;
-    line-height: 70px;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .ellipse1 {
     position: absolute;
     right: -240px;
     top: -500px;
-}
-
-.title_list_item {
-    height: 100px;
 }
 
 .feature_heading {
@@ -514,7 +517,8 @@ a.nav-link {
     border: 1px solid var(--bs-primary);
     box-sizing: border-box;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 /* Latest Blog  */
