@@ -527,6 +527,10 @@ a.nav-link {
         0px 109px 175px -30px rgba(183, 0, 206, 0.1);
 }
 
+.latest_blog-item > img {
+    height: 234px;
+}
+
 .blog_time {
     font-size: 1.6rem;
     line-height: 24px;
