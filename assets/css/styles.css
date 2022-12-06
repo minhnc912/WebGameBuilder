@@ -364,16 +364,6 @@ a.nav-link {
     align-items: center;
 }
 
-.title_list_item {
-    height: 140px;
-
-}
-
-.body_list_item {
-    margin-top: 20px;
-    height: 200px;
-}
-
 .feature_list_img img,
 .universities_img {
     background: var(--bs-background);
@@ -629,12 +619,30 @@ a.nav-link {
     .wrapper {
         margin: 0 240px;
     }
+    .title_list_item {
+        height: 140px;
+
+    }
+
+    .body_list_item {
+        margin-top: 20px;
+        height: 200px;
+    }
 }
 
 @media (min-width: 1400px) {
     .wrapper {
         max-width: 1320px;
         margin: auto;
+    }
+    .title_list_item {
+        height: 140px;
+
+    }
+
+    .body_list_item {
+        margin-top: 20px;
+        height: 200px;
     }
 }
 
@@ -652,6 +660,15 @@ a.nav-link {
 
     .feature_universities_item {
         width: 45%;
+    }
+    .title_list_item {
+        height: 140px;
+
+    }
+
+    .body_list_item {
+        margin-top: 20px;
+        height: 200px;
     }
 }
 
