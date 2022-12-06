@@ -309,7 +309,6 @@ a.nav-link {
     font-size: 2rem;
     line-height: 28px;
     font-weight: 600;
-
 }
 
 .job_cate_item:hover,
@@ -326,7 +325,6 @@ a.nav-link {
 /* Subscriber */
 #subscriber {
     background: #04033f;
-    background-image: url(../images/Background_subcriber.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -371,7 +369,17 @@ a.nav-link {
     display: inline-block;
 }
 
-
+.feature_list_img img, .universities_img{
+    background: var(--bs-background);
+    border: 1px solid var(--bs-background);
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: inline-block;
+}
 
 .ellipse1 {
     position: absolute;
@@ -391,7 +399,6 @@ a.nav-link {
     border: 2px solid #37345a;
     padding: 24px 32px 24px 24px;
     width: 49%;
-
     margin-bottom: 30px;
 }
 
@@ -403,8 +410,14 @@ a.nav-link {
     font-size: 1.8rem;
 }
 
+
 .feature_item p {
     font-size: 1.6rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #features .feature_time {
@@ -415,7 +428,15 @@ a.nav-link {
 .feature_content_header {
     font-size: 2.4rem;
     font-weight: 600;
-    line-height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.feature_list_content {
+    line-height: 1.5;
 }
 
 .sub_heading_feature {
@@ -432,7 +453,7 @@ a.nav-link {
     margin-right: 24px;
 }
 
-.fa-heart{
+.fa-heart {
     font-size: 2.4rem;
 }
 
@@ -467,7 +488,6 @@ a.nav-link {
     border-radius: 16px;
     padding: 32px;
     margin: 15px;
-
 }
 
 .uni_heading {
@@ -504,7 +524,6 @@ a.nav-link {
     box-shadow: 0px 28px 95px -132px rgba(0, 60, 207, 0.1),
         -80px -101px 147px -68px rgba(255, 28, 137, 0.1),
         0px 109px 175px -30px rgba(183, 0, 206, 0.1);
-    cursor: pointer;
 }
 
 .blog_time {
@@ -708,4 +727,115 @@ a.nav-link {
     #features {
         overflow: hidden;
     }
+}
+
+/*added by lapbt*/
+.hidden {
+    display: none !important;
+}
+.btn-job-fav {
+    box-shadow: none !important;
+}
+
+/*================================================
+06 - BTN TOP CSS
+==================================================*/
+.btntoTop {
+    color: #ffffff;
+    vertical-align: middle;
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    border-radius: 50%;
+    bottom: 30px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 33px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    -webkit-transition: opacity 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s;
+    width: 40px;
+    z-index: 99999;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.42);
+}
+
+.btntoTop.active {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.btntoTop.active:hover {
+    background: #3454f1d5 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.btntoTop.active.btntoTop:hover:before {
+    color: #fff;
+}
+
+.navIcon {
+    display: none;
+}
+
+/*================================================
+07 - cookie consent CSS
+==================================================*/
+.cookie-consent {
+    text-align: center;
+    padding: 45px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #dbdbd0;
+    text-align: center;
+    z-index: 999;
+}
+.cookie-consent__message {
+    color: #b1721f;
+    font-size: 14px;
+}
+.ml-3,
+.mx-3 {
+    margin-left: 0.75rem !important;
+}
+.cookie-consent__message a {
+    color: var(--bs-primary);
+}
+.cookie-consent__cancel,
+.cookie-consent__agree {
+    z-index: 9991;
+    min-width: 85px !important;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #b1721f;
+    background-color: #ecc77e;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.cookie-consent__cancel {
+    min-width: 85px !important;
+    font-size: 14px;
+    background-color: #e4e6ef;
+    border-color: #e4e6ef;
 }
