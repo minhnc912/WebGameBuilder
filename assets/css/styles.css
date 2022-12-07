@@ -8,19 +8,27 @@
 }
 
 :root {
-    --bs-button: linear-gradient(262.17deg,
-            #00cbf4 -86.4%,
-            #2a00ff 362.24%) !important;
-    --bs-second-button: linear-gradient(262.17deg,
-            #00cbf4 -86.4%,
-            #2a00ff 362.24%) !important;
+    --bs-button: linear-gradient(
+        262.17deg,
+        #00cbf4 -86.4%,
+        #2a00ff 362.24%
+    ) !important;
+    --bs-second-button: linear-gradient(
+        262.17deg,
+        #00cbf4 -86.4%,
+        #2a00ff 362.24%
+    ) !important;
     --bs-background: #06052f !important;
-    --bs-primary: linear-gradient(262.17deg,
-            #05d5ff -86.4%,
-            #5533ff 362.24%) !important;
-    --bs-header-text: linear-gradient(262.17deg,
-            #05d5ff -86.4%,
-            #5533ff 362.24%);
+    --bs-primary: linear-gradient(
+        262.17deg,
+        #05d5ff -86.4%,
+        #5533ff 362.24%
+    ) !important;
+    --bs-header-text: linear-gradient(
+        262.17deg,
+        #05d5ff -86.4%,
+        #5533ff 362.24%
+    );
 }
 
 .btn-outline-primary {
@@ -346,8 +354,8 @@ a.nav-link {
     z-index: 1;
 }
 
-.feature_list_img>div,
-.universities_img>div {
+.feature_list_img > div,
+.universities_img > div {
     height: 70px;
     width: 70px;
     color: #fff;
@@ -395,8 +403,8 @@ a.nav-link {
     border-radius: 20px;
     border: 2px solid #37345a;
     padding: 24px 32px 24px 24px;
-    width: 49%;
-    margin-bottom: 30px;
+    width: 47%;
+    margin: 15px;
     height: 320px;
 }
 
@@ -407,7 +415,6 @@ a.nav-link {
 .feature_item h4 {
     font-size: 1.8rem;
 }
-
 
 .feature_item p {
     font-size: 1.6rem;
@@ -478,13 +485,12 @@ a.nav-link {
 }
 
 .feature_universities_list {
-    margin: 15px 0;
     position: relative;
     z-index: 10;
 }
 
 .feature_universities_item {
-    width: 30%;
+    width: 31%;
     background: linear-gradient(0deg, #071440, #071440), rgba(52, 50, 59, 0.3);
     border: 2px solid #37345a;
     border-radius: 16px;
@@ -498,7 +504,7 @@ a.nav-link {
     line-height: 28px;
 }
 
-.universities_img>div {
+.universities_img > div {
     height: 70px;
     width: 70px;
     color: #fff;
@@ -532,7 +538,7 @@ a.nav-link {
         0px 109px 175px -30px rgba(183, 0, 206, 0.1);
 }
 
-.latest_blog-item>img {
+.latest_blog-item > img {
     height: 234px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -621,7 +627,7 @@ a.nav-link {
     padding: 24px 10px;
 }
 
-#fav_item_1969 a.text-primary{
+#fav_item_1969 a.text-primary {
     font-size: 2rem;
     font-weight: 600;
 }
@@ -635,7 +641,6 @@ a.nav-link {
     }
     .title_list_item {
         height: 140px;
-
     }
 
     .body_list_item {
@@ -648,14 +653,13 @@ a.nav-link {
     }
 }
 
-@media (min-width: 1400px) and (max-width: 1920px){
+@media (min-width: 1400px) and (max-width: 1920px) {
     .wrapper {
         max-width: 1320px;
         margin: auto;
     }
     .title_list_item {
         height: 140px;
-
     }
 
     .body_list_item {
@@ -666,7 +670,6 @@ a.nav-link {
     #features {
         overflow: hidden;
     }
-
 }
 
 /* horizontal tablet */
@@ -686,7 +689,6 @@ a.nav-link {
     }
     .title_list_item {
         height: 140px;
-
     }
 
     .body_list_item {
@@ -726,9 +728,14 @@ a.nav-link {
         width: 45%;
     }
 
-    .feature_list_img img, .universities_img {
+    .feature_list_img img {
         width: 100%;
         height: 100%;
+    }
+
+    .universities_img {
+        width: 30%;
+        height: 30%;
     }
 }
 
@@ -750,9 +757,14 @@ a.nav-link {
     p {
         font-size: 1.2rem;
     }
-    .feature_list_img img, .universities_img {
+    .feature_list_img img {
         width: 100%;
         height: 100%;
+    }
+
+    .universities_img {
+        width: 30%;
+        height: 30%;
     }
 }
 
@@ -779,9 +791,14 @@ a.nav-link {
     .contact_action {
         margin: 30px 0;
     }
-    .feature_list_img img, .universities_img {
+    .feature_list_img img {
         width: 100%;
         height: 100%;
+    }
+
+    .universities_img {
+        width: 30%;
+        height: 30%;
     }
 }
 
@@ -801,9 +818,15 @@ a.nav-link {
     #features {
         overflow: hidden;
     }
-    .feature_list_img img, .universities_img {
+    .feature_list_img img
+     {
         width: 100%;
         height: 100%;
+    }
+
+    .universities_img {
+        width: 30%;
+        height: 30%;
     }
 }
 
