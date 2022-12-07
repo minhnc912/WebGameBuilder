@@ -728,14 +728,10 @@ a.nav-link {
         width: 45%;
     }
 
-    .feature_list_img img {
-        width: 100%;
-        height: 100%;
-    }
-
+    .feature_list_img img,
     .universities_img {
-        width: 30%;
-        height: 30%;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -757,14 +753,10 @@ a.nav-link {
     p {
         font-size: 1.2rem;
     }
-    .feature_list_img img {
-        width: 100%;
-        height: 100%;
-    }
-
+    .feature_list_img img,
     .universities_img {
-        width: 30%;
-        height: 30%;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -791,14 +783,10 @@ a.nav-link {
     .contact_action {
         margin: 30px 0;
     }
-    .feature_list_img img {
-        width: 100%;
-        height: 100%;
-    }
-
+    .feature_list_img img,
     .universities_img {
-        width: 30%;
-        height: 30%;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -818,15 +806,10 @@ a.nav-link {
     #features {
         overflow: hidden;
     }
-    .feature_list_img img
-     {
-        width: 100%;
-        height: 100%;
-    }
-
+    .feature_list_img img,
     .universities_img {
-        width: 30%;
-        height: 30%;
+        width: 50px;
+        height: 50px;
     }
 }
 
