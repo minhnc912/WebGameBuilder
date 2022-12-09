@@ -94,7 +94,7 @@ a {
 a {
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    color: var(--bs-primary);
+    color: #fff;
 }
 
 a:focus {
