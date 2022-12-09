@@ -8,22 +8,10 @@
 }
 
 :root {
-    --bs-button: linear-gradient(
-        262.17deg,
-        #00cbf4 -86.4%,
-        #2a00ff 362.24%
-    ) !important;
-    --bs-second-button: linear-gradient(
-        262.17deg,
-        #00cbf4 -86.4%,
-        #2a00ff 362.24%
-    ) !important;
+    --bs-button: #05d5ff !important;
+    --bs-second-button: #05d5ff !important;
     --bs-background: #06052f !important;
-    --bs-primary: linear-gradient(
-        262.17deg,
-        #05d5ff -86.4%,
-        #5533ff 362.24%
-    ) !important;
+    --bs-primary: #05d5ff !important;
     --bs-header-text: linear-gradient(
         262.17deg,
         #05d5ff -86.4%,
@@ -61,7 +49,6 @@ body {
 html,
 body {
     height: 100%;
-    font-size: 62.5%;
 }
 
 .wrapper {
@@ -70,32 +57,32 @@ body {
 
 h1 {
     font-weight: 800;
-    font-size: 6rem;
+    font-size: 3.75rem;
     line-height: 82px;
     letter-spacing: -0.025em;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 3.6rem;
+    font-size: 2.25rem;
     line-height: 45px;
 }
 
 h3 {
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 1.875rem;
     line-height: 40px;
 }
 
 h5 {
     font-weight: 400;
-    font-size: 2.3rem;
+    font-size: 1.4375rem;
     line-height: 32px;
 }
 
 p {
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.125rem;
     line-height: 28px;
 }
 
@@ -142,115 +129,10 @@ img {
 }
 
 .btn {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 
-/* header */
 
-.header_nav {
-    height: 15%;
-    top: 0;
-    transition: top 0.3s;
-    width: 100%;
-    -ms-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-    -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
-    z-index: 1999;
-    background-color: #090745;
-}
-
-.header_text {
-    font-weight: 600;
-}
-
-.container-fluid {
-    margin: 2% 0;
-}
-
-.btn_singin {
-    border: none;
-}
-
-.btn_singup {
-    border-radius: 8px;
-    border: 1px solid;
-    border-color: #2f2754;
-}
-
-.btn_singup:hover,
-.btn_singin:hover {
-    background-color: #2f2754;
-    border: 1px solid #2f2754;
-    color: #fff;
-}
-
-#header ul {
-    text-align: center;
-}
-
-#header ul li a {
-    display: inline-block;
-    position: relative;
-    margin: 0 16px;
-}
-
-#header ul li a.has-children-link {
-    padding: 8px 0;
-}
-
-#header ul li:hover a.has-children-link {
-    color: #05d5ff;
-}
-
-#header ul .nav-item a.has-children-link:focus {
-    color: #05d5ff;
-}
-
-#header ul .nav-item a.has-children-link::after {
-    content: "";
-    height: 3px;
-    width: 0;
-    background: var(--bs-primary);
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.5s;
-}
-
-#header ul li:hover a.has-children-link::after {
-    width: 100%;
-}
-
-#header ul .nav-item:focus a.has-children-link::after {
-    width: 100%;
-}
-
-#header ul {
-    text-align: center;
-}
-
-#header .header_right_menu {
-    text-align: right;
-}
-
-a.nav-link {
-    font-weight: 600;
-    color: #fff;
-}
-
-.navbar {
-    margin-bottom: 80px;
-    padding: 20px;
-    background-color: #07063a;
-}
-
-.offcanvas {
-    width: 50% !important;
-}
-
-.text-bg-dark {
-    background-color: var(--bs-background) !important;
-}
 
 /* Title  */
 #title {
@@ -308,7 +190,7 @@ a.nav-link {
 .job_cate_item {
     align-items: center;
     padding: 32px 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
     line-height: 28px;
     font-weight: 600;
 }
@@ -411,15 +293,15 @@ a.nav-link {
 }
 
 .feature_item h3 {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
 }
 
 .feature_item h4 {
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 
 .feature_item p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -428,12 +310,12 @@ a.nav-link {
 }
 
 #features .feature_time {
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 24px;
 }
 
 .feature_content_header {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     font-weight: 600;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -452,7 +334,7 @@ a.nav-link {
 
 .sub_heading_feature {
     margin-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -465,7 +347,7 @@ a.nav-link {
 }
 
 .fa-heart {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
 }
 
 /* Feature Universities */
@@ -502,7 +384,7 @@ a.nav-link {
 
 .uni_heading {
     width: 90%;
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -547,7 +429,7 @@ a.nav-link {
 }
 
 .blog_time {
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 24px;
     margin-bottom: 6px;
 }
@@ -566,73 +448,7 @@ a.nav-link {
     position: relative;
 }
 
-/* cta  */
 
-.cta_bg {
-    position: relative;
-}
-
-.looper_bg {
-    position: absolute;
-    bottom: -300px;
-}
-
-.background_blur {
-    position: absolute;
-    bottom: -300px;
-}
-
-#cta {
-    margin: 0 7.5px;
-    position: relative;
-    z-index: 10;
-}
-
-.contact_info li {
-    margin: 6px 0;
-}
-
-#cta .contact_action h5 {
-    font-weight: 700;
-    font-size: 1.6rem;
-}
-
-#cta a {
-    font-size: 1.6rem;
-    font-weight: 400;
-    display: block;
-}
-
-.cta_logo {
-    margin-bottom: 20px;
-}
-
-#cta .social_icon li {
-    margin-right: 24px;
-}
-
-.contact_action {
-    margin: 30px 0;
-}
-
-/* footer  */
-
-#footer {
-    font-size: 16px;
-    line-height: 24px;
-
-    background: rgba(3, 6, 21, 0.5);
-    /* Background/1 */
-
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
-    padding: 24px 10px;
-}
-
-#fav_item_1969 a.text-primary {
-    font-size: 2rem;
-    font-weight: 600;
-}
 /* Responsive  */
 
 /* Large PC  */
@@ -642,7 +458,7 @@ a.nav-link {
         margin: 0 240px;
     }
     .title_list_item {
-        height: 140px;
+        height: 130px;
     }
 
     .body_list_item {
@@ -661,7 +477,7 @@ a.nav-link {
         margin: auto;
     }
     .title_list_item {
-        height: 140px;
+        height: 130px;
     }
 
     .body_list_item {
@@ -740,21 +556,21 @@ a.nav-link {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 3rem;
+        font-size: 1.875rem;
         line-height: 40px;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 18px;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 15px;
     }
 
     h5,
     p {
-        font-size: 1.2rem;
+        font-size: 12px;
     }
     .feature_list_img img,
     .universities_img {
@@ -822,7 +638,7 @@ a.nav-link {
 /*added by lapbt*/
 .hidden {
     display: none !important;
-    font-size: 2rem !important;
+    font-size: 1.25rem !important;
 }
 
 .btn-job-fav {

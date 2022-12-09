@@ -68,6 +68,7 @@
         />
 
         <!--Site Main Style css-->
+        <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/styles.css" />
         <!--Responsive css-->
         <!-- Global site tag (gtag.js) - Google Analytics - 36 -->
@@ -179,7 +180,7 @@
                                 >
                                     <div class="row align-items-center">
                                         <div
-                                            class="col-lg-6 d-flex justify-content-center"
+                                            class="col-lg-5 d-flex justify-content-center"
                                         >
                                             <ul class="navbar-nav mb-2 mb-lg-0">
                                                 <li class="nav-item">
@@ -199,7 +200,7 @@
                                                 </li>
                                                 <li class="nav-item">
                                                     <a
-                                                        class="nav-link has-children-link"
+                                                        class="nav-link has-children-link active"
                                                         href="https://beta.roboexpress.net/blog"
                                                         >Blog</a
                                                     >
@@ -220,29 +221,83 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-6 float-end">
-                                            <ul>
+                                        <div class="col-lg-7">
+                                            <ul class="d-lg-flex float-end">
                                                 <li
-                                                    class="btn btn-outline-light btn_singin"
+                                                    class="btn btn-primary btn-lg btn_title btn_title_right btn_more mr-3"
                                                 >
                                                     <a
-                                                        href="https://beta.roboexpress.net/login "
+                                                        href="https://beta.roboexpress.net/blog-post/post/create"
                                                         style="
                                                             margin: 0px !important;
                                                         "
-                                                        >Sign in</a
+                                                        >Post Blog</a
                                                     >
                                                 </li>
-                                                <li
-                                                    class="btn btn-outline-light btn_singup"
-                                                >
+                                                <li>
                                                     <a
-                                                        href="https://beta.roboexpress.net/registration "
+                                                        href="#"
+                                                        class="dropdown-toggle"
+                                                        data-bs-toggle="dropdown"
                                                         style="
                                                             margin: 0px !important;
                                                         "
-                                                        >Sign up</a
+                                                        >minhnguyen91200@gmail.com</a
                                                     >
+                                                    <div
+                                                        class="dropdown-menu dropdown-menu-end robo-dropdown-menu mb-5"
+                                                    >
+                                                        <a
+                                                            href="https://beta.roboexpress.net/profile/dashboard"
+                                                            class="dropdown-item menu-item"
+                                                            >Dashboard</a
+                                                        >
+                                                        <a
+                                                            href="https://beta.roboexpress.net/profile/change-password"
+                                                            class="dropdown-item menu-item"
+                                                            >Change password</a
+                                                        >
+                                                        <div
+                                                            class="dropdown-divider"
+                                                        ></div>
+                                                        <a
+                                                            href="https://beta.roboexpress.net/job/manage"
+                                                            class="dropdown-item"
+                                                            >Manage Job</a
+                                                        >
+                                                        <a
+                                                            href="https://beta.roboexpress.net/blog-post/post/list"
+                                                            class="dropdown-item"
+                                                            >Manage Blog</a
+                                                        >
+                                                        <a
+                                                            href="https://beta.roboexpress.net/news-post/post/list"
+                                                            class="dropdown-item"
+                                                            >Manage News</a
+                                                        >
+                                                        <div
+                                                            class="dropdown-divider"
+                                                        ></div>
+                                                        <a
+                                                            href="https://beta.roboexpress.net/profile/signout"
+                                                            onclick="event.preventDefault();
+                document.getElementsByClassName('nav-logout-form')[0].submit();"
+                                                            class="dropdown-item menu-item"
+                                                            >Log out</a
+                                                        >
+                                                        <form
+                                                            class="nav-logout-form"
+                                                            action="https://beta.roboexpress.net/profile/signout"
+                                                            method="POST"
+                                                            style="display: none"
+                                                        >
+                                                            <input
+                                                                type="hidden"
+                                                                name="_token"
+                                                                value="lac5wQtkSPKWAN4x7TWWAiwlN2wb2w8UWLsBkyFb"
+                                                            />
+                                                        </form>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
